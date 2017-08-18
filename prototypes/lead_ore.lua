@@ -14,7 +14,7 @@ local leadOre =   {
 	autoplace =
     {
       control = "lead-ore",
-	  coverage = 0.01,
+	  coverage = 0.02,
 	  peaks =
       {
         {
@@ -41,7 +41,7 @@ local leadOre =   {
 		}
 	},
 	flags = {"placeable-neutral"},
-    icon = "__supper__/graphics/icons/lead-ore.png",
+    icon = "__suppersradiationmod__/graphics/icons/lead-ore.png",
 	map_color = {r=0.11372549, g=0.11372549, b=0.243137255},
 	minable =
     {
@@ -58,12 +58,12 @@ local leadOre =   {
     {
       sheet =
       {
-        filename = "__supper__/graphics/entity/ores/lead-ore.png",
+        filename = "__suppersradiationmod__/graphics/entity/ores/lead-ore.png",
 		frame_count = 8,
 		height = 64,
         width = 64,
 		 hr_version = {
-          filename = "__supper__/graphics/entity/ores/hr-lead-ore.png",		  
+          filename = "__suppersradiationmod__/graphics/entity/ores/hr-lead-ore.png",		  
           frame_count = 8,
           height = 128,
           width = 128,
@@ -81,7 +81,7 @@ local leadOre =   {
 local leadItem = {
     type = "item",
     name = "lead-ore",
-    icon = "__supper__/graphics/icons/lead-ore.png",
+    icon = "__suppersradiationmod__/graphics/icons/lead-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "a[lead-ore]",

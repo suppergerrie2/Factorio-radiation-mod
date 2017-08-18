@@ -1,0 +1,24 @@
+data:extend
+{
+	{
+		type="double-setting",
+		name="reactor-multiplier",
+		setting_type="runtime-global",
+		default_value=2,
+		minimum_value=0
+	},
+	{
+		type="double-setting",
+		name="centrifuge-multiplier",
+		setting_type="runtime-global",
+		default_value=0.5,
+		minimum_value=0
+	},
+	{
+		type="double-setting",
+		name="damage-range",
+		setting_type="runtime-global",
+		default_value=50,
+		minimum_value=0
+	}
+}

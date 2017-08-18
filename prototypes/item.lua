@@ -1,7 +1,7 @@
 local radiationArmor = {
     type = "armor",
     name = "radiation-armor",
-    icon = "__supper__/graphics/icons/radiation-armor.png",
+    icon = "__suppersradiationmod__/graphics/icons/radiation-armor.png",
     flags = {"goes-to-main-inventory"},
     resistances =
     {
@@ -40,14 +40,14 @@ local radiationArmor = {
 local recipe = table.deepcopy(data.raw.recipe["heavy-armor"])
 recipe.name = "radiation-armor"
 recipe.enabled=true
-recipe.ingredients = {{"copper-plate",200},{"steel-plate",50}}
+recipe.ingredients = {{"copper-plate",200},{"steel-plate",50},{"lead-plate", 50}}
 recipe.result = "radiation-armor"
 
 local leadReactor = {
       flags = {
         "goes-to-quickbar"
       },
-      icon = "__supper__/graphics/icons/lead-nuclear-reactor.png",
+      icon = "__suppersradiationmod__/graphics/icons/lead-nuclear-reactor.png",
       name = "lead-reactor",
       order = "f[nuclear-energy]-b[reactor]",
       place_result = "s-lead-protected-reactor",
@@ -87,7 +87,7 @@ local leadPlate = {
       flags = {
         "goes-to-main-inventory"
       },
-      icon = "__supper__/graphics/icons/lead-plate.png",
+      icon = "__suppersradiationmod__/graphics/icons/lead-plate.png",
       name = "lead-plate",
       order = "l[lead-plate]",
       stack_size = 100,
@@ -113,7 +113,7 @@ local leadCentrifuge = {
 	flags = {
       "goes-to-quickbar"
     },
-    icon = "__supper__/graphics/icons/lead-centrifuge.png",
+    icon = "__suppersradiationmod__/graphics/icons/lead-centrifuge.png",
     name = "lead-centrifuge",
     order = "l[lead-centrifuge]",
     place_result = "s-lead-protected-centrifuge",

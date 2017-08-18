@@ -1,11 +1,11 @@
 {
-    "name": "supper",
-    "version": "0.0.3",
-    "title": "Supper Mod",
+    "name": "suppersradiationmod",
+    "version": "0.1.0",
+    "title": "Suppergerrie2's radiaton mod",
     "author": "suppergerrie2",
     "contact": "suppergerrie2@gmail.com",
     "homepage": "suppergerrie2.com",
     "factorio_version": "0.15",
     "dependencies": ["base >= 0.15"],
-    "description": "This mod is a test."
+    "description": "This mod adds radiation to the game, nuclear reactors and centrifuges damage the player when in range."
 }
